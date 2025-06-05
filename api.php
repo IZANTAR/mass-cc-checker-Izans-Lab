@@ -1,21 +1,27 @@
 <?php
 require 'vendor/autoload.php';
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 $gateway = new Braintree\Gateway([
-  'environment' => 'sandbox',
-  'merchantId' => 'sgs3szbh725fvfz9',
-  'publicKey' => 'r37wsnstj8dyxm6c',
-  'privateKey' => 'dd055f5cbfa1a44bbd88d9e60e13c5e4'
+    'environment' => $_ENV['BT_ENVIRONMENT'],
+    'merchantId' => $_ENV['BT_MERCHANT_ID'],
+    'publicKey' => $_ENV['BT_PUBLIC_KEY'],
+    'privateKey' => $_ENV['BT_PRIVATE_KEY']
 ]);
 
 $result = $gateway->transaction()->sale([
-  'amount' => '1.00',
-  'paymentMethodNonce' => 'fake-valid-nonce',
-  'options' => ['submitForSettlement' => true]
+    'amount' => '11.00',
+    'paymentMethodNonce' => 'fake-valid-nonce',
+    'options' => [
+        'submitForSettlement' => true
+    ]
 ]);
 
 if ($result->success) {
-  echo "✅ Transacción exitosa: " . $result->transaction->id;
+    echo "✅ Transacción exitosa: " . $result->transaction->id;
 } else {
-  echo "❌ Error: " . $result->message;
+    echo "❌ Error: " . $result->message;
 }
+
