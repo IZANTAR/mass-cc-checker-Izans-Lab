@@ -14,9 +14,7 @@ $gateway = new Braintree\Gateway([
 $result = $gateway->transaction()->sale([
     'amount' => '11.00',
     'paymentMethodNonce' => 'fake-valid-nonce',
-    'options' => [
-        'submitForSettlement' => true
-    ]
+    'options' => ['submitForSettlement' => true]
 ]);
 
 if ($result->success) {
@@ -24,4 +22,5 @@ if ($result->success) {
 } else {
     echo "❌ Error: " . $result->message;
 }
+
 
