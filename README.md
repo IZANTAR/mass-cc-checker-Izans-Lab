@@ -1,46 +1,88 @@
-# CC Checker
+# 💳 MASS-CC-CHECKER
 
-This is a simple web-based tool for checking the validity of credit card numbers. The tool is built using HTML, CSS, and Bootstrap for the front-end, and PHP for the back-end.
-
-### 🍥 Similar :
-
-[KE1-CC-CHECKER](https://github.com/OshekharO/KE1-CC-CHECKER)
-
-### ✨ Features :
-
-• Check the validity of credit card number
-
-• Shows live, die, and unknown card number
-
-### 😶‍🌫️ Usage :
-
-1. Enter credit card numbers in the input field in the format of `card_number|expiry_month|expiry_year|cvv`
-
-2. Click the "START" button to begin the check
-
-3. The tool will display the number of live, die, and unknown card numbers in real-time
-
-## 💽 Where To Host :
-
-1. https://www.freehostia.com
-
-2. https://infinityfree.net
-
-Note: You can use any hosting.
-
-## 🚸 Warnings :
-
-- This is Just For Educational Purpose.
-
-- DO NOT Sell this Script, This is 100% Free
-
-## 🤗 Contact Me :
-
-
-• For any Support About Script contact [issues](https://github.com/OshekharO/MASS-CC-CHECKER/issues/new)
+Una herramienta web sencilla para verificar la validez de números de tarjetas de crédito. Utiliza HTML, CSS y Bootstrap para el front-end, y PHP para el back-end.
 
 ---
 
-<h4 align='center'>© 2023 ツ ѕнєкнєя</h4>
+### 🪪 Autor y créditos
+**Creado por Izan's Lab**  
+🔸 Para el grupo **💳 ESCUELA BINS Y CCS SOLO AMIGOS 💸**  
+🔸 Hecho solo con fines **educativos**
 
-<!-- DO NOT REMOVE THIS CREDIT 🤬 🤬 -->
+---
+
+### ✨ Características
+- Verifica la validez de tarjetas de crédito (formato `card_number|month|year|cvv`)
+- Muestra tarjetas en estado: **Live**, **Dead**, o **Unknown**
+- Actualización en tiempo real del conteo
+
+---
+
+### ⚙️ Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/IZANTAR/mass-cc-checker-Izans-Lab.git
+   cd mass-cc-checker-Izans-Lab
+   ```
+
+2. Sube los archivos a un servidor que soporte PHP (ver más abajo).
+
+---
+
+### 🌐 Dónde alojarlo
+Recomendaciones gratuitas:
+
+- https://www.freehostia.com
+- https://infinityfree.net
+
+También puedes usar cualquier otro servidor compatible con PHP.
+
+---
+
+### 🧠 Uso
+
+1. Ingresa las tarjetas en el formato:  
+   ```
+   1234567812345678|12|2026|123
+   ```
+
+2. Haz clic en el botón `START`
+
+3. El sistema mostrará en tiempo real cuántas son:
+   - ✅ **Live**
+   - ❌ **Die**
+   - ❓ **Unknown**
+
+---
+
+### 🧷 Advertencias
+
+- ⚠️ Esto es solo con fines **educativos**
+- ❌ **No vendas** este script, es 100% gratuito
+- 🛑 El mal uso del script es responsabilidad del usuario
+
+---
+
+### 🤝 Contribuciones
+
+¡Se aceptan pull requests! Si deseas mejorar la herramienta, puedes bifurcar este repositorio y enviar mejoras.
+
+---
+
+### 📬 Contacto
+
+Para soporte o dudas, abre un [Issue](https://github.com/IZANTAR/mass-cc-checker-Izans-Lab/issues).
+
+---
+
+### 🏷️ Badges
+
+![Version](https://img.shields.io/badge/version-2025-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-free-lightgrey)
+
+---
+
+> © 2025 por Izan's Lab • Grupo 💳 ESCUELA BINS Y CCS SOLO AMIGOS 💸
+
