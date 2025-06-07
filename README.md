@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💳 MASS-CC-CHECKER
 
 Una herramienta web sencilla para verificar la validez de números de tarjetas de crédito. Utiliza HTML, CSS y Bootstrap para el front-end, y PHP para el back-end.
@@ -87,7 +86,7 @@ Para soporte o dudas, abre un [Issue](https://github.com/IZANTAR/mass-cc-checker
 
 > © 2025 por Izan's Lab • Grupo 💳 ESCUELA BINS Y CCS SOLO AMIGOS 💸
 
-=======
+
 # MASS-CC-CHECKER - Izan's Lab
 
 ### 💳 ESCUELA BINS Y CCS SOLO AMIGOS 💸
@@ -222,4 +221,3 @@ Para más información visita: [https://unlicense.org](https://unlicense.org)
 ---
 
 © 2025 Izan's Lab • Grupo 💳 ESCUELA BINS Y CCS SOLO AMIGOS 💸
->>>>>>> dfb277d (Actualización: nuevos archivos (.env.example, verify.php) y mejoras en index.php)
